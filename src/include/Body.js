@@ -205,7 +205,38 @@ const Body = () => {
 
         <div className="form-box">
             <form action="ex.js" method="post">
+                <fieldset className="cfixed">
+                <legend className="blind">
+                CONTACT US
+                </legend>
+                <div className="form">
+                    <label for="name" className="blind">
+                    name
+                    </label>
+                    <input type="text" id="name" placeholder="Name"/>
 
+                    <label for="phone" className="blind">
+                    phone
+                    </label>
+                    <input type="tel" id="phone" placeholder="phone"/>
+
+                    <label for="email" className="blind">
+                    phone
+                    </label>
+                    <input type="emial" id="email" placeholder="Email Address"/>
+
+                </div>
+
+                <div className="textarea">
+                    <label for="message" className="blind">
+                    message
+                    </label>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                </div>
+                <div className="send-btn">
+                    <button>SEND MASSAGE</button>
+                </div>
+                </fieldset>
 
             </form>
         </div>
